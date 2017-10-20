@@ -1,12 +1,14 @@
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import MenuSimple from './components/menu';
+import Menu from './components/menu';
+import Grid from './components/grid'
 import './App.css';
 
 const App = () => (
 
       <MuiThemeProvider>
-        <MenuSimple />
+        <Menu/>
+        <Grid />
       </MuiThemeProvider>
     );
 
